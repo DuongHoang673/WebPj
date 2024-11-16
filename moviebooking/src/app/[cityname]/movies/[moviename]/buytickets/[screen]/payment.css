@@ -1,0 +1,54 @@
+/* PaymentPage.css */
+.payment-page {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .payment-page h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .movie-details p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .screen-selection {
+    margin: 20px 0;
+  }
+  
+  .screen-selection label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .screen-selection select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .pay-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .pay-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
